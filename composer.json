@@ -4,8 +4,8 @@
 	"keywords": ["laravel", "stripe", "stripe-connect", "billing"],
     "type": "library",
     "require": {
-        "laravel/cashier": "^12.6|^13.4|^14.10",
-        "illuminate/support": "^8.17|^9.0|^10.0"
+        "laravel/cashier": "^12.6|^13.4|^14.10|^15.0",
+        "illuminate/support": "^8.17|^9.0|^10.0|^11.0"
     },
     "license": "MIT",
     "authors": [
