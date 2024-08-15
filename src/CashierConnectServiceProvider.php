@@ -21,20 +21,7 @@ class CashierConnectServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->registerMigrations();
         $this->registerPublishing();
-    }
-
-    /**
-     * Register the package migrations.
-     *
-     * @return void
-     */
-    protected function registerMigrations()
-    {
-        if (Cashier::$runsMigrations && $this->app->runningInConsole()) {
-            $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        }
     }
 
     /**
